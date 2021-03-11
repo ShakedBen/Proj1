@@ -1,0 +1,242 @@
+.mediaViewInfo {
+	--web-view-name: home;
+	--web-view-id: home;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: home;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#home {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(227,220,220,1);
+	overflow: hidden;
+	--web-view-name: home;
+	--web-view-id: home;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_1 {
+	fill: rgba(0,0,0,0.98);
+}
+.Rectangle_1 {
+	filter: drop-shadow(0px 12px 48px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 2064px;
+	height: 303px;
+	left: 0px;
+	top: 0px;
+}
+#_ {
+	opacity: 0.5;
+	left: 1772px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: register.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(255,255,255,1);
+}
+#__k {
+	opacity: 0.5;
+	left: 1559px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 144px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: login.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(255,255,255,1);
+}
+#__l {
+	left: 45px;
+	top: 51px;
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: rgba(255,255,255,1);
+}
+#Group_7 {
+	position: absolute;
+	width: 189px;
+	height: 138px;
+	left: 19px;
+	top: -40px;
+	overflow: visible;
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 15px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 121px;
+	height: 15px;
+	left: 32.5px;
+	top: 40.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Polygon_1_p {
+	fill: url(#Polygon_1_p);
+}
+.Polygon_1_p {
+	overflow: visible;
+	position: absolute;
+	width: 189px;
+	height: 138px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_10 {
+	opacity: 0;
+	position: absolute;
+	width: 189px;
+	height: 138px;
+	left: 1536px;
+	top: -40px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: login.html;
+	cursor: pointer;
+}
+#Line_1_r {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 15px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1_r {
+	overflow: visible;
+	position: absolute;
+	width: 121px;
+	height: 15px;
+	left: 32.5px;
+	top: 40.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Polygon_1_t {
+	fill: url(#Polygon_1_t);
+}
+.Polygon_1_t {
+	overflow: visible;
+	position: absolute;
+	width: 189px;
+	height: 138px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_11 {
+	opacity: 0;
+	position: absolute;
+	width: 189px;
+	height: 138px;
+	left: 1731px;
+	top: -40px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: register.html;
+	cursor: pointer;
+}
+#Line_1_v {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 15px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1_v {
+	overflow: visible;
+	position: absolute;
+	width: 121px;
+	height: 15px;
+	left: 32.5px;
+	top: 40.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Polygon_1_x {
+	fill: url(#Polygon_1_x);
+}
+.Polygon_1_x {
+	overflow: visible;
+	position: absolute;
+	width: 189px;
+	height: 138px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_3_r:hover {
+    opacity: 0.6;
+    fill: url(#Path_3_r);
+}
+#Polygon_1_t:hover {
+    fill: url(#Polygon_1_t);
+	opacity: 0.6;
+}
+#Line_1_r:hover {
+	opacity: 0.6;
+    fill: transparent;
+    stroke: rgba(255,255,255,1);
+    stroke-width: 15px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
